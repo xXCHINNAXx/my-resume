@@ -1,0 +1,13 @@
+.mani{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  app-rmenu{
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    bottom: 1em;
+    width: 30%
+  }
+  
+}

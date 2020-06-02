@@ -1,0 +1,161 @@
+$blueColor :#576d7b;
+$paleblack :#f2f2f2;
+label{
+  color: $blueColor;
+  font-size: 25px;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0;
+  hr{
+    color: $paleblack;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+span{
+  a{
+
+      text-decoration: none;
+
+  }
+
+}
+.card{
+font-family: Century Gothic;
+display: flex;
+flex-direction: column;
+align-self: center;
+justify-content: center;
+margin: 1em auto;
+width: 50rem;
+border: 0;
+.header{
+  padding-left: 1em;
+  padding-top: 15px;
+  background-color:$blueColor;
+  color: #fff;
+  font-family: Century Gothic;
+  height: 5em;
+
+h1{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  padding-top: 5px;
+  text-align: left;
+}
+}
+.mainContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .ConnRight{
+    background-color: $paleblack;
+    width: 35%;
+  }
+  .ConnLeft{
+    background-color: #fff;
+    width: 100-35%;
+    .LeftMain{
+      margin: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+}
+.workTablw{
+  tr{
+    margin-top: 1em;
+  }
+  th{
+    font-weight: 700;
+    text-align: left;
+  }
+  td{
+    font-size: 15px;
+    ul{
+      li{
+        font-size: 15px;
+      }
+    }
+  }
+  .thDate{
+    width: 10em;
+  }
+  .tdItalicP{
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+  }
+}
+#ProjectsUl, #OtherLinksUL{
+    li{
+      img{
+        width: 0.5em;
+        height: auto;
+      }
+    
+    }
+  
+}
+.RightMailContent{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#RTechinicalSkillsSpan, #RSoftwares, #Rlang{
+  display: flex;
+  flex-direction: column;
+
+#RTechinicalSkills,#RSoftwaresTB, #RlanTb{
+  align-self: center;
+  width: 100%;
+ 
+  tr{
+    td{
+      svg{
+        width: 5em;
+        height: auto;
+      }
+    }
+  }
+}
+}
+#RSoftwaresTB{
+  tr{
+    td:nth-child(even){
+      padding-left: 3.6em;
+    }
+  }
+}
+  #Rlang{
+    margin-bottom: 2em;
+  }
+.endLineColor{
+ margin: 0;
+border: 0;
+height: 7px;
+background: linear-gradient(to right,#7dc57c 0,#7dc57c 16.6%,#1295c9 16.6%,#1295c9 33.2%,#815874 33.2%,#815874 49.8%,#fada58 49.8%,#fada58 66.4%,#e15554 66.4%,#e15554 83%,#ff8000 83%,#ff8000 99.6%);
+}
+@media all and (max-width:900px) {
+  .card{
+    
+.mainContent{
+  flex-direction: column !important;
+  .ConnLeft{
+    width: 100% !important;
+  }
+  .ConnRight{
+    width: 100% !important;
+  }
+}
+}
+#RSoftwaresTB{
+  tr{
+    td:nth-child(even){
+      padding-left: 20em !important;
+    }
+  }
+}
+}
